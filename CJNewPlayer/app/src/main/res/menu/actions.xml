@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:id="@+id/overflowMenu"
+            android:icon="@drawable/ic_menus"
+            android:title="s"
+            app:showAsAction="always">
+            <menu>
+                <item
+                    android:id="@+id/menuWithIconText"
+                    android:icon="@drawable/ic_action_name"
+                    android:title=" Поделиться" />
+                <item
+                    android:id="@+id/menuWithIconTex"
+                    android:icon="@drawable/ic_plus"
+                    android:title=" Другие приложения" />
+                <item
+                    android:id="@+id/menuWithIconTe"
+                    android:icon="@drawable/ic_feedback"
+                    android:title=" Обратная связь" />
+                <item
+                    android:id="@+id/menuWithIconT"
+                    android:icon="@drawable/ic_ads_off"
+                    android:title=" Отключить рекламу" />
+                <item
+                    android:id="@+id/getsome"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="Больше информации"
+
+                    />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
